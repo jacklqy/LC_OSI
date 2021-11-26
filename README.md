@@ -12,7 +12,7 @@ ISO七层模型讲解
 
 5、会话层，对应主机进程，指本地主机与远程主机正在进行的会话。负责建立、维护、控制会话，区分不同的会话，以及提供单工(Simplex)、半双工(Half duplex)、全双工(Full duplex)三种通信模式的服务。我们平时所知的NFS，RPC,XWindows等都工作在这一层。
 
-4、传输层，负责分割、组合数据，实现端到端的逻辑连接。数据在上三层是整体的，到了这一层开始被分割，这一层分割后的数据被称为段(Segment)。三次握手(Three-wayhandshake)，面向连接(Connection-Oriented)或非面向连接(Connectionless-Oriented)的服务，流控(Flowcontrol)等都发生在这一层。协议有：TCP UDP，数据包一旦离开网卡即进入网络传输层。
+4、传输层，负责分割、组合数据，实现端到端的逻辑连接。数据在上三层是整体的，到了这一层开始被分割，这一层分割后的数据被称为段(Segment)。三次握手(Three-wayhandshake)，面向连接(Connection-Oriented)或非面向连接(Connectionless-Oriented)的服务，流控(Flowcontrol)等都发生在这一层。协议有：TCP UDP，***数据包一旦离开网卡即进入网络传输层。***
 
 3、网络层，负责管理网络地址，定位设备，决定路由。进行逻辑地址寻址，实现不同网络之间的路径选择。我们所熟知的IP地址和路由器就是工作在这一层。上层的数据段在这一层被分割，封装后叫做包(Packet)，包有两种，一种叫做用户数据包(Datapackets)，是上层传下来的用户数据；另一种叫路由更新包(Route updatepackets)，是直接由路由器发出来的，用来和其他路由器进行路由信息的交换。
 
