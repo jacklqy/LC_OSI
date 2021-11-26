@@ -2,6 +2,7 @@
 ISO七层模型讲解
 ![image](https://user-images.githubusercontent.com/26539681/143543660-a52a3cce-9b82-4e8d-a281-10eba05a36e4.png)
 ![image](https://user-images.githubusercontent.com/26539681/143543678-3a2fb5a3-0a7f-43d7-b524-12d003333e4c.png)
+![image](https://user-images.githubusercontent.com/26539681/143544845-0b412eaa-f734-47e4-8990-2e71850a3613.png)
 
 其中上三层称之为高层，定义应用程序之间的通信和人机界面。什么意思呢，就是上三层负责把电脑能看懂的东西转化为你能看懂的东西，或把你能看懂的东西转化为电脑能看懂的东西。下四层称之为底层，定义的是数据如何端到端的传输(end-to-end),物理规范以及数据与光电信号间的转换。
 
