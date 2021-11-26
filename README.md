@@ -1,4 +1,4 @@
-# LC_ISO
+# LC_OSI
 
 ## OSI，是英文 Open System Interconnect 的缩写，中文翻译开放系统互联，一个抽象七层模型，但其核心思想一点也不抽象，非常具体，其核心思想：
 
